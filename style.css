@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Asar&family=Baloo+Bhai+2:wght@400..800&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    padding: 30px;
+}
+
+.site-name h1 {
+    font-family: "Asar";
+    font-weight: bold;
+    font-style: normal;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+}
+
+ul li {
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(65, 65, 65);
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.3;
+    padding-bottom: 54px;
+    padding-top: 30px;
+}
+
+.hero h1 {
+    font-family: "Asar";
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(65, 65, 65);
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    row-gap: 36px;
+    padding: 40px 189px;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    width: 60vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+.card img {
+    width: inherit;
+    height: 32vh;
+    border-radius: 6px;
+    margin-bottom: 14px;
+}
+
+.blog-info-container {
+    line-height: 1.4;
+}
+
+.blog-category {
+    background-color: rgb(0, 0, 112);
+    color: white;
+    border-radius: 3px;
+    padding: 6px 13px;
+}
+
+.blog-title {
+    margin-top: 14px;
+    font-family: "Asak", serif;
+    font-weight: bold;
+}
+
+.blog-description {
+    color: rgb(55, 55, 55);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    padding: 10px 0;
+}
+
+.blog-footer-info {
+    background-color: black;
+    height: 45px;
+}
+
+.blog-footer-info p {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
